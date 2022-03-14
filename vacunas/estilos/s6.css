@@ -1,0 +1,88 @@
+.S6 {
+    display:flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.S6 .S6I1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 100%;
+    padding: 2% 2%;
+}
+
+.S6 .S6I1 .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    padding-top: 25%;
+    gap: 20px;
+}
+
+.S6 .S6I1 .contenedor .contacto-opc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    border: 5px solid #FAFAFE;
+    padding: 0 10%;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.S6 .S6I1 .contenedor .contacto-opc a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    color: rgb(46,78,204);
+    font-size:16px;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Poppins';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.S6 .S6I1 .contenedor .contacto-info{
+    display: flex;
+
+}
+
+.S6 .S6I1 .contenedor .contacto-info .titulo{
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: rgb(31,62,114);
+
+}
+
+.S6 .S6I1 .contenedor .contacto-info .numeros{
+    font-size: 16px;
+    font-family: 'PoppinsL';
+    color: #6D7B93;
+
+}
+
+.S6 .S6I2{
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+.S6 .S6I2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, #0a97e6, #3861db);
+    background-size: 100% 75%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}

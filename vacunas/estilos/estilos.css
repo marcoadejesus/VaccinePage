@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+  }
+
+  @font-face {
+      font-family: 'Monserrat';
+      src: url(/fuentes/Monserrat/Montserrat-Bold.ttf);
+      font-style: normal;
+      font-weight: 100;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/fuentes/Poppins/Poppins-Medium.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'PoppinsL';
+    src: url(/fuentes/Poppins/Poppins-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+.container{
+    display:flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+

@@ -1,0 +1,24 @@
+.S3{
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding-left: 10%;
+    gap: 20px;
+}
+
+.S3 .titulo{
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Monserrat';
+    font-size: 32px;
+    color: rgb(31,62,114);
+}
+
+.S3 .texto{
+    font-family: 'PoppinsL';
+    color: #6D7B93;
+    font-size: 16px;
+}

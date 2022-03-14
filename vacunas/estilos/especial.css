@@ -1,0 +1,23 @@
+.especial{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 5% 0 0 10%;
+}
+
+.especial .titulo{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(31,62,114);
+}
+
+.especial .texto{
+    font-family: 'PoppinsL';
+    font-size: 18px;
+    color: #6D7B93;
+    height: 100px;
+    width: 550px;
+}

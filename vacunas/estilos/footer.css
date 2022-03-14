@@ -1,0 +1,73 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEF3FE;
+    width: 100%;
+    height: 60%;
+}
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.footer .logo-footer{
+    display:flex;
+    flex-direction: column;
+    padding: 5% 0 5% 10%;
+    font-family: 'Monserrat';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer .menu-footer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 2%;
+
+}
+.logo-footer .logo{
+    color: rgb(39,71,197);
+}
+
+.logo-footer .text{
+    font-size: 12px;
+    font-family: 'PoppinsL';
+
+}
+
+.menu-footer .info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+}
+
+.info .titulo{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: rgb(31,62,114);
+}
+
+.info .link{
+    color: #6D7B93;
+    font-family: 'PoppinsL';
+}
+
+.footer-container .firma{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #6D7B93;
+}
+
+.footer-container .firma .detalles{
+    display: flex;
+    gap:50px;
+}
+

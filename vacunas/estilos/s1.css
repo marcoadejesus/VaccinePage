@@ -1,0 +1,163 @@
+.S1{
+    display:flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 2%;
+
+}
+
+.SI1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/triangulos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.SI1 .legend{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.SI1 .legend p{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Monserrat';
+    font-size: 52px;
+    font-weight: 500;
+    color: rgb(31,62,114);
+    letter-spacing: 4px;
+}
+
+.SI1 .texto{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    font-family: 'PoppinsL';
+    color: #6D7B93;
+    font-size: 19px;
+    font-weight: 100;
+    padding-top: 2%;
+}
+
+.SI1 .iconos-container{
+    display: flex;
+    width: 70%;
+    padding-top: 4%;
+    align-items: center;
+    gap:5%;
+}
+
+.SI1 .iconos-container p{
+    color: #254376;
+    font-size: 14px;
+    font-family: 'PoppinsL';
+}
+
+
+.SI2{
+    background-image: url(/imagenes/enfermera.jpeg);
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+
+}
+
+.SI3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 55%;
+    height: 25%;
+    left: 10%;
+    bottom: 5%;
+    justify-content: space-evenly;
+}
+
+.SI3 .titulo-form{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.SI3 .titulo-form .marco-icono img{
+    width: 20px;
+    height: 20px;
+}
+
+.SI3 .titulo-form p{
+    color: #254376;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.SI3 .agenda-form{
+    display: flex;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 0 1%;
+    box-shadow: 0px 15px 30px -15px #5275d8; 
+}
+
+.SI3 .agenda-form .campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 25%;
+    gap: 5px;
+}
+.SI3 .agenda-form .campo .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(46,78,204);
+    color: white;
+    font-size:16px;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Poppins';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.SI3 .agenda-form .campo .campo-titulo p{
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.SI3 .agenda-form .campo .campo-titulo{
+    display: flex;
+    align-items: center;
+    color: rgb(109,123,147);
+    font-weight: bold;
+    padding-right: 60px;
+}
+
+.SI3 .agenda-form .campo-dato{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: rgb(31,62,114);
+    align-self: flex-start;
+    padding-left: 25%;
+}

@@ -1,0 +1,64 @@
+.container header nav div.logo{
+    flex-basis: 30%;
+    display:flex;
+    align-items: center;
+    padding-left: 10%;
+    text-decoration: none;
+    color:inherit;
+    font-family: 'Monserrat';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 49%, rgba(231,244,252,1) 55%);
+    flex: 1;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo h1{
+    color: rgb(39,71,197);
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+    padding-right: 4%;
+
+}
+
+.menu a{
+    list-style: none;
+    color: rgb(109,123,147);
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.menu a.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(46,78,204);
+    color: white;
+    font-size:18px;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
